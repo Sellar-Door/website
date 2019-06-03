@@ -1,0 +1,110 @@
+
+body {
+    background-color: #c7e5ee;
+    
+}
+.container {
+    height: 90vh;
+    width: 90vw;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-areas: "header header header"
+                         "left main right"
+                         "footer footer footer";
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    display: block; 
+    margin-left: auto;
+    margin-right:auto;
+   
+ }
+
+ .topNav {
+     display: inline-block;
+     color: #6DA3A8;
+     text-align: center;
+     font-size: 30px;
+     font-family: 'Source Sans Pro', sans-serif;
+     padding: 20px 32px 40px;
+     line-height: 1.6em;
+    text-transform: none;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+
+ }
+ .cell-1 {
+    background: #f5eee1;
+    grid-area: header;
+    border-color: #e2ddcf;
+    border-style: solid;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    margin: 30px 30px 30px 30px;
+
+
+
+ 
+ }
+ .cell-5 {
+    
+    grid-area: footer;
+    max-width: 1160px;
+    background: #f5eee1;
+    border-color: #e2ddcf;
+    border-style: solid;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    margin: 30px 30px 30px 30px;
+ }
+
+ .cell {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 4rem;
+    max-width: 1160px;
+ }
+
+.slide {
+  border-radius: 25px;
+  background: url(Images/Dollarphotoclub_68672123.jpg);
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  padding-bottom: 100px; 
+  width: 839.31px;
+  height: 552px; 
+  transform: translate(0px,-100px);
+  
+}
+
+.square {
+    border-radius: 25px;
+    float: right;
+    background-color: #6DA3A8;
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 253.75px;
+    height: 657.98px; 
+    transform: translate(330px,-20px);
+    color: #3E4F59
+
+}
+
+h1 {
+    font-size: 41.6px;
+    
+}
+
+div p {
+color: white;
+font-size: 24px;
+margin: 24px 0px 7.2px;
+}
+
